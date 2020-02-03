@@ -1,0 +1,45 @@
+.number-display {
+    padding: .25em;
+    margin: .1em 0;
+
+    vertical-align: center;
+
+    font-size: 110%;
+    font-weight: 360;
+}
+
+.number-display:hover {
+    background-color: #ffffff;
+
+    cursor: pointer;
+}
+
+.number-display:active {
+    background-color: #ffffff;
+}
+
+.number-display-label {
+    display: inline-block;
+
+    width: 8%;
+
+    padding: 0 .5em;
+    padding-right: 1em;
+    margin: 0;
+
+    text-align: center;
+}
+
+.number-display-value {
+    display: inline-block;
+
+    border-left: 2px solid rgb(181, 233, 233);
+    padding-left: .75em;
+
+    max-width: 75%;
+
+    text-transform: uppercase;
+
+    word-break: break-all;
+    word-wrap: break-word;
+}

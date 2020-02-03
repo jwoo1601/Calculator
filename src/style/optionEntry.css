@@ -1,0 +1,25 @@
+.option-entry {
+    border: 1.5px solid rgb(191, 223, 223);
+    margin: .6em .75em;
+    padding: 0;
+}
+
+.option-entry-label {
+    padding: .1em .25em;
+    margin: 0;
+
+    width: fit-content;
+
+    background-color: rgb(191, 223, 223);
+    color: #555555;
+}
+
+.option-entry-items {
+    margin: .25em .5em;
+    margin-right: 1em;
+
+    width: -webkit-max-content;
+
+    color: #777777;
+    background-color: rgb(223, 243, 243);
+}
